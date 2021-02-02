@@ -1,9 +1,8 @@
 import { useMutation, useQuery } from "@apollo/client";
 import gql from "graphql-tag";
 import moment from "moment";
-import { Query } from "mongoose";
 import React, { useContext, useState } from "react";
-import { Route, RouteComponentProps, RouteProps } from "react-router-dom";
+import { RouteComponentProps } from "react-router-dom";
 import {
     Button,
     Card,

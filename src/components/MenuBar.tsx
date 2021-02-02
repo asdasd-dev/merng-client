@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useReducer, useState } from "react";
-import { Menu, MenuItemProps, Segment } from "semantic-ui-react";
-import { Link, useHistory } from "react-router-dom";
+import React, { useContext, useEffect, useState } from "react";
+import { Menu, MenuItemProps } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 import { AuthContext } from "../context/auth";
 
 export const MenuBar: React.FC = () => {

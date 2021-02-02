@@ -1,10 +1,10 @@
 import { useMutation } from "@apollo/client";
 import gql from "graphql-tag";
 import React, { useState } from "react";
-import { Button, Confirm, Icon, Popup } from "semantic-ui-react";
+import { Button, Confirm, Icon } from "semantic-ui-react";
 import { FETCH_POSTS_QUERY } from "../util/graphql";
 import { MyPopup } from "../util/MyPopup";
-import { Comment, Post } from "../util/types";
+import { Post } from "../util/types";
 
 export const DeleteButton: React.FC<{
     postId: string;

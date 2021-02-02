@@ -1,7 +1,6 @@
-import { decode } from "jsonwebtoken";
 import jwtDecode from "jwt-decode";
 import React, { createContext, useReducer } from "react";
-import { Mutation, MutationLoginArgs, User } from "../util/types";
+import { User } from "../util/types";
 
 interface TokenData {
     exp: number;

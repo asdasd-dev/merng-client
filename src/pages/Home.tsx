@@ -2,7 +2,6 @@ import { useQuery } from "@apollo/client";
 import React, { useContext } from "react";
 import { Grid, Transition } from "semantic-ui-react";
 import styled from "styled-components";
-import { MenuBar } from "../components/MenuBar";
 import { PostCard } from "../components/PostCard";
 import { PostForm } from "../components/PostForm";
 import { AuthContext } from "../context/auth";

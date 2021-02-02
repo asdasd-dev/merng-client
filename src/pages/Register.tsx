@@ -1,8 +1,8 @@
 import { useMutation } from "@apollo/client";
 import gql from "graphql-tag";
-import React, { useContext, useState } from "react";
-import { RouterProps, useHistory } from "react-router-dom";
-import { Button, Form, FormInputProps } from "semantic-ui-react";
+import React, { useContext } from "react";
+import { useHistory } from "react-router-dom";
+import { Button, Form } from "semantic-ui-react";
 import styled from "styled-components";
 import { AuthContext } from "../context/auth";
 import { useForm } from "../util/hooks";
